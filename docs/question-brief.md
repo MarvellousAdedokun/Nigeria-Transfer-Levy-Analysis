@@ -12,12 +12,12 @@ Nigerians see a small levy deducted on many electronic transfers. The government
 What do official Nigerian reports tell us about EMTL amounts over time, and how is the money shared if the reports show that detail?
 
 ## Sub-questions
-1. Which official measure of EMTL is the most reliable?
-2. Which periods are covered, and are the months comparable?
-3. How do the reported amounts change over time?
-4. Who receives the money, if the reports break it down?
-5. Do the PDF and Excel versions agree? Do table definitions change?
-6. Which conclusions does the data support, and which need more data?
+1. Which official measure of EMTL is the most reliable? answerable from Excel Table I EMTL column, which matches the PDF
+2. Which periods are covered, and are the months comparable? Partially For the 15 month window
+3. How do the reported amounts change over time? Answerable	For that 15-month window
+4. Who receives the money, if the reports break it down? answerable
+5. Do the PDF and Excel versions agree? Do table definitions change? answerable 
+6. Which conclusions does the data support, and which need more data? 
 
 ## Audience
 A fintech strategy or analytics team, a payments researcher, a journalist, or a public-finance analyst. These are possible readers, not confirmed sponsors.
