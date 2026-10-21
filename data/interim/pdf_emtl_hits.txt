@@ -1,0 +1,290 @@
+data/interim/pdf_text/FAAC November 2024 Report.txt-29- 1.23 trillion recorded from the Statutory Account,
+data/interim/pdf_text/FAAC November 2024 Report.txt-30- 646.00 billion from Exchange Gain,
+data/interim/pdf_text/FAAC November 2024 Report.txt-31- 100.00 billion from Non-Oil Revenue,
+data/interim/pdf_text/FAAC November 2024 Report.txt:32: 17.82 billion from Electronic Money Transfer Levy (EMTL), and
+data/interim/pdf_text/FAAC November 2024 Report.txt-33- 668.29 billion from Value Added Tax.
+data/interim/pdf_text/FAAC November 2024 Report.txt-34-3. The allocations to the three tiers of government for November 2024 were:
+data/interim/pdf_text/FAAC November 2024 Report.txt-35- Federal Government with a total of 433.02 billion
+--
+data/interim/pdf_text/FAAC November 2024 Report.txt-51- 12.83 billion to the Federal Capital Territory (FCT)- Abuja.
+data/interim/pdf_text/FAAC November 2024 Report.txt-52-
+data/interim/pdf_text/FAAC November 2024 Report.txt-53-                                                           5
+data/interim/pdf_text/FAAC November 2024 Report.txt:54:NB:- Others* for this month is the Distribution from Exchange Gain, and Electronic Money Transfer Levy (EMTL). See tables in a ppendix for
+data/interim/pdf_text/FAAC November 2024 Report.txt-55-                                                                                    details
+data/interim/pdf_text/FAAC November 2024 Report.txt-56-
+data/interim/pdf_text/FAAC November 2024 Report.txt-57-                                                             6
+--
+data/interim/pdf_text/FAAC November 2024 Report.txt-77-
+data/interim/pdf_text/FAAC November 2024 Report.txt-78-                                                                                                                      Distribution of 100Billion
+data/interim/pdf_text/FAAC November 2024 Report.txt-79-
+data/interim/pdf_text/FAAC November 2024 Report.txt:80:                                                                                      Electronic Money Transfer Levy from Non-Oil Revenue for the
+data/interim/pdf_text/FAAC November 2024 Report.txt-81-
+data/interim/pdf_text/FAAC November 2024 Report.txt:82:S/n               Beneficiaries          Statutory             Exchange Gain                (EMTL)                    Month                                                      Value Added Tax       Total
+data/interim/pdf_text/FAAC November 2024 Report.txt-83-
+data/interim/pdf_text/FAAC November 2024 Report.txt-84-                                                                                                                                                                                                       
+data/interim/pdf_text/FAAC November 2024 Report.txt-85-
+--
+data/interim/pdf_text/FAAC November 2024 Report.txt-140-
+data/interim/pdf_text/FAAC November 2024 Report.txt-141-                                 Gross Statutory Alloca-                                                    from Non-Oil Revenue for                           Electronic Money
+data/interim/pdf_text/FAAC November 2024 Report.txt-142-
+data/interim/pdf_text/FAAC November 2024 Report.txt:143:    S/n  Beneficiaries           tion                          Total Deduction    Net Statutory Allocation  the Month                   Exchange Gain       Transfer Levy (EMTL)     Value Added Tax    Total
+data/interim/pdf_text/FAAC November 2024 Report.txt-144-
+data/interim/pdf_text/FAAC November 2024 Report.txt-145-                                                                                                                                                                                                                            
+data/interim/pdf_text/FAAC November 2024 Report.txt-146-                                                                                                                                                                                                        295,079,720,326.53
+--
+data/interim/pdf_text/FAAC November 2024 Report.txt-157-         5 FCT-Abuja             472,326,866.67             (510,027,869.00)      (37,701,002.33)           1,000,000,000.00            4,926,825,967.54    171,107,899.52        6,553,125,503.93
+data/interim/pdf_text/FAAC November 2024 Report.txt-158-
+data/interim/pdf_text/FAAC November 2024 Report.txt-159-                          Total  24,882,179,336.35          (105,308,487,650.07)  (80,426,308,313.72)       52,680,000,000.00           259,545,191,970.08  2,566,618,492.75      93,676,882,558.89     328,042,384,707.99
+data/interim/pdf_text/FAAC November 2024 Report.txt:160:S/n       Beneficiaries  No. of  Net Statutory Allocation  Exchange Gain Allocation    Distribution of 100Billion  Electronic Money Transfer  Net Share of Ecology   Net VAT Allocation   Total Net Amount
+data/interim/pdf_text/FAAC November 2024 Report.txt:161:                         LGCs                                                        from Non-Oil Revenue for the          Levy (EMTL)               56,885,913.47      6,331,211,727.98      11,140,645,344.77
+data/interim/pdf_text/FAAC November 2024 Report.txt-162-                                                                                                                                                    121,033,658.93      7,458,888,295.23      10,785,055,100.19
+data/interim/pdf_text/FAAC November 2024 Report.txt-163-                                                                                                    Month                                            61,079,207.60      7,652,189,079.07      34,927,475,389.80
+data/interim/pdf_text/FAAC November 2024 Report.txt-164-                                                                                                                                                    120,806,916.61      7,815,443,254.64      13,665,299,439.65
+--
+data/interim/pdf_text/FAAC Report December 2024.txt-28-2. The amount disbursed comprised:
+data/interim/pdf_text/FAAC Report December 2024.txt-29- 1.82 trillion recorded from the Statutory Account,
+data/interim/pdf_text/FAAC Report December 2024.txt-30- 671.39 billion from Exchange Gain,
+data/interim/pdf_text/FAAC Report December 2024.txt:31: 15.67 billion from Electronic Money Transfer Levy (EMTL), and
+data/interim/pdf_text/FAAC Report December 2024.txt-32- 628.97 billion from Value Added Tax.
+data/interim/pdf_text/FAAC Report December 2024.txt-33-3. The allocations to the three tiers of government for December 2024 were:
+data/interim/pdf_text/FAAC Report December 2024.txt-34- Federal Government with a total of 581.85 billion
+--
+data/interim/pdf_text/FAAC Report December 2024.txt-50- 14.83 billion to the Federal Capital Territory (FCT)- Abuja.
+data/interim/pdf_text/FAAC Report December 2024.txt-51-
+data/interim/pdf_text/FAAC Report December 2024.txt-52-                                                           5
+data/interim/pdf_text/FAAC Report December 2024.txt:53:NB:- Others* for this month is the Distribution from Exchange Gain, and Electronic Money Transfer Levy (EMTL). See tables in a ppendix for
+data/interim/pdf_text/FAAC Report December 2024.txt-54-                                                                                    details
+data/interim/pdf_text/FAAC Report December 2024.txt-55-
+data/interim/pdf_text/FAAC Report December 2024.txt-56-                                                             6
+--
+data/interim/pdf_text/FAAC Report December 2024.txt-72-
+data/interim/pdf_text/FAAC Report December 2024.txt-73-                                                           Summary of Gross Revenue Allocation by Federation Account Allocation Committee for the Month of November, 2024 Shared in December, 2024
+data/interim/pdf_text/FAAC Report December 2024.txt-74-
+data/interim/pdf_text/FAAC Report December 2024.txt:75:S/n  Beneficiaries                                                         Statutory                           Exchange Gain               Electronic Money Transfer Levy (EMTL)                    Value Added Tax                   Total
+data/interim/pdf_text/FAAC Report December 2024.txt-76-                                                                                                                                                                                                                                        
+data/interim/pdf_text/FAAC Report December 2024.txt-77-                                                                                                                                                                                                    
+data/interim/pdf_text/FAAC Report December 2024.txt-78-                                                                175,690,727,106.14                 316,053,846,677.39                                                                                                        581,856,400,321.81
+--
+data/interim/pdf_text/FAAC Report December 2024.txt-113-                                  Allocation                             Allocation                        Money Trans-
+data/interim/pdf_text/FAAC Report December 2024.txt-114-    n   Beneficiaries                              Total Deduction                                                          Value Added Tax  Total
+data/interim/pdf_text/FAAC Report December 2024.txt-115-                                                                                                               fer Levy
+data/interim/pdf_text/FAAC Report December 2024.txt:116:                                                                                      Exchange Gain (EMTL)
+data/interim/pdf_text/FAAC Report December 2024.txt-117-
+data/interim/pdf_text/FAAC Report December 2024.txt-118-                                                                                                                                                      
+data/interim/pdf_text/FAAC Report December 2024.txt-119-                                                                                                                                             431,421,388,070.8
+--
+data/interim/pdf_text/FAAC Report December 2024.txt-136-                                                (105,919,127,948.0 69,771,599,158.1 316,053,846,677.                                         475,937,272,373.7
+data/interim/pdf_text/FAAC Report December 2024.txt-137-                                                                                                                                             9
+data/interim/pdf_text/FAAC Report December 2024.txt-138-               Total           175,690,727,106.14 2)                2                 40                2,256,940,237.41 87,854,886,300.86
+data/interim/pdf_text/FAAC Report December 2024.txt:139:S/n         Beneficiaries  No. of  Net Statutory Allocation  Exchange Gain Allocation  Electronic Money Transfer Levy  Net Share of Ecology    Total Net Amount
+data/interim/pdf_text/FAAC Report December 2024.txt:140:                           LGCs       2,879,870,766.78          4,852,036,000.11                      (EMTL)              82,980,503.11       13,971,609,239.79
+data/interim/pdf_text/FAAC Report December 2024.txt-141-1 ABIA                                  938,056,795.13          4,097,697,034.44                                         176,553,970.89       11,755,624,713.05
+data/interim/pdf_text/FAAC Report December 2024.txt-142-                             17     25,199,869,763.23         18,604,185,165.34                 194,729,658.10            89,097,336.53       50,999,972,117.23
+data/interim/pdf_text/FAAC Report December 2024.txt-143-2 ADAMAWA                    21       3,749,519,281.54          5,432,315,404.99                171,078,554.27           176,223,217.81       17,102,969,113.41
+--
+data/interim/pdf_text/FAAC_April_2025.txt-27-2. The amount disbursed comprised:
+--
+data/interim/pdf_text/FAAC_April_2025.txt-50-
+data/interim/pdf_text/FAAC_April_2025.txt-51-                                                           5
+data/interim/pdf_text/FAAC_April_2025.txt:52:NB:- Others* for this month is the Distribution from Exchange Gain, and Electronic Money Transfer Levy (EMTL). See attached Excel file for
+data/interim/pdf_text/FAAC_April_2025.txt-53-                                                                                  details
+data/interim/pdf_text/FAAC_April_2025.txt-54-
+data/interim/pdf_text/FAAC_April_2025.txt-55-                                                           6
+Binary file data/interim/pdf_text/FAAC_April_2025.txt matches
+--
+data/interim/pdf_text/FAAC_August_2024.txt-1-Federation Account
+data/interim/pdf_text/FAAC_August_2024.txt-2-Allocation Committee (FAAC)
+data/interim/pdf_text/FAAC_August_2024.txt-3-
+--
+data/interim/pdf_text/FAAC_August_2024.txt-52-
+data/interim/pdf_text/FAAC_August_2024.txt-53-                                                           5
+data/interim/pdf_text/FAAC_August_2024.txt:54:NB:- Others* for this month is the Distribution from Exchange Gain, Solid Minerals and Electronic Money Transfer Levy (EMTL). See tables in
+data/interim/pdf_text/FAAC_August_2024.txt-55-                                                                           appendix for details
+data/interim/pdf_text/FAAC_August_2024.txt-56-
+data/interim/pdf_text/FAAC_August_2024.txt-57-                                                            6
+--
+data/interim/pdf_text/FAAC_August_2024.txt-69-
+data/interim/pdf_text/FAAC_August_2024.txt-70-                                            Summary of Gross Revenue Allocation by Federation Account Allocation Committee for the Month of July, 2024 Shared in August, 2024
+data/interim/pdf_text/FAAC_August_2024.txt-71-
+data/interim/pdf_text/FAAC_August_2024.txt:72:S/n            Beneficiaries                  Statutory             Exchange Gain               Solid Mineral                  Electronic Money Transfer Levy                  Value Added Tax                 Total
+data/interim/pdf_text/FAAC_August_2024.txt:73:                                                                                                                                              (EMTL)                                                             
+data/interim/pdf_text/FAAC_August_2024.txt-74-
+data/interim/pdf_text/FAAC_August_2024.txt-75-                                            58,545,427,339.37     276,110,319,718.67                                                                                                                     431,079,096,082.61
+data/interim/pdf_text/FAAC_August_2024.txt-76-                                            29,695,023,130.37     140,046,844,018.28                                                                                                                     473,476,572,030.31
+--
+data/interim/pdf_text/FAAC_August_2024.txt-127-    S/                          Gross Statutory                         Net Statutory Allo-                                    Electronic Mon-
+data/interim/pdf_text/FAAC_August_2024.txt-128-                                   Allocation                                                                                  ey Transfer Levy
+data/interim/pdf_text/FAAC_August_2024.txt-129-    n   Beneficiaries                                 Total Deduction   cation               Exchange Gain      Solid Mineral                         Value Added Tax  Total
+data/interim/pdf_text/FAAC_August_2024.txt:130:                                                                                                                                    (EMTL)
+data/interim/pdf_text/FAAC_August_2024.txt-131-
+data/interim/pdf_text/FAAC_August_2024.txt-132-18                                                                                                                                                                               
+data/interim/pdf_text/FAAC_August_2024.txt-133-                                                                                                                                                                       293,147,782,423.82
+--
+data/interim/pdf_text/FAAC_August_2024.txt-152-
+data/interim/pdf_text/FAAC_August_2024.txt-153-1             2           3       10=6-(7+8+9)              11                            13                     16                    19                       21=10+11+12+13+16+19
+data/interim/pdf_text/FAAC_August_2024.txt-154-
+data/interim/pdf_text/FAAC_August_2024.txt:155:S/n        Beneficiaries  No. of  Net Statutory Allocation  Exchange Gain Allocation  Electronic Money Transfer  Net Share of Ecology  Net VAT Allocation       Total Net Amount
+data/interim/pdf_text/FAAC_August_2024.txt:156:                          LGCs                                                                Levy (EMTL)                                  6,006,527,228.82            10,572,445,635.21
+data/interim/pdf_text/FAAC_August_2024.txt-157-                                                                                                                                           6,348,350,079.34             9,777,067,175.76
+data/interim/pdf_text/FAAC_August_2024.txt-158-   1 ABIA                 17      219,775,532.88            3,962,479,568.01              241,553,751.62         57,527,667.30             7,096,942,774.34            32,639,368,782.29
+data/interim/pdf_text/FAAC_August_2024.txt-159-                                                                                                                                           7,043,826,755.22            12,996,276,437.15
+Binary file data/interim/pdf_text/FAAC_August_2024.txt matches
+--
+data/interim/pdf_text/FAAC_August_2025.txt-27-2. The amount disbursed comprised:
+--
+data/interim/pdf_text/FAAC_August_2025.txt-50-
+data/interim/pdf_text/FAAC_August_2025.txt-51-                                                           5
+data/interim/pdf_text/FAAC_August_2025.txt:52:NB:- Others* for this month is the Distribution from Exchange Gain and Electronic Money Transfer Levy (EMTL) See tables in appendix for de-
+data/interim/pdf_text/FAAC_August_2025.txt-53-                                                                                    tails
+data/interim/pdf_text/FAAC_August_2025.txt-54-
+data/interim/pdf_text/FAAC_August_2025.txt-55-                                                            6
+Binary file data/interim/pdf_text/FAAC_August_2025.txt matches
+--
+data/interim/pdf_text/FAAC_December_2025.txt-26-three tiers of government in December 2025 from the total revenue generated in November 2025
+data/interim/pdf_text/FAAC_December_2025.txt-27-2. The amount disbursed comprised:
+--
+data/interim/pdf_text/FAAC_December_2025.txt-49-
+data/interim/pdf_text/FAAC_December_2025.txt-50-                                                           5
+data/interim/pdf_text/FAAC_December_2025.txt:51:NB:- Others* for this month is the Electronic Money Transfer Levy (EMTL) . See tables in appendix for details
+data/interim/pdf_text/FAAC_December_2025.txt-52-
+data/interim/pdf_text/FAAC_December_2025.txt-53-                                              6
+data/interim/pdf_text/FAAC_December_2025.txt-54-7
+Binary file data/interim/pdf_text/FAAC_December_2025.txt matches
+--
+data/interim/pdf_text/FAAC_Feb_2025.txt-27-2. The amount disbursed comprised:
+--
+data/interim/pdf_text/FAAC_Feb_2025.txt-50-
+data/interim/pdf_text/FAAC_Feb_2025.txt-51-                                                           5
+data/interim/pdf_text/FAAC_Feb_2025.txt:52:NB:- Others* for this month is the Distribution from Exchange Gain, and Electronic Money Transfer Levy (EMTL). See attached excel file for
+data/interim/pdf_text/FAAC_Feb_2025.txt-53-                                                                                  details
+data/interim/pdf_text/FAAC_Feb_2025.txt-54-
+data/interim/pdf_text/FAAC_Feb_2025.txt-55-                                                           6
+Binary file data/interim/pdf_text/FAAC_Feb_2025.txt matches
+--
+data/interim/pdf_text/FAAC_Jan_2025.txt-27-2. The amount disbursed comprised:
+--
+data/interim/pdf_text/FAAC_Jan_2025.txt-50-
+data/interim/pdf_text/FAAC_Jan_2025.txt-51-                                                           5
+data/interim/pdf_text/FAAC_Jan_2025.txt:52:NB:- Others* for this month is the Distribution from Exchange Gain, and Electronic Money Transfer Levy (EMTL). See attached excel file for
+data/interim/pdf_text/FAAC_Jan_2025.txt-53-                                                                                  details
+data/interim/pdf_text/FAAC_Jan_2025.txt-54-
+data/interim/pdf_text/FAAC_Jan_2025.txt-55-                                                           6
+Binary file data/interim/pdf_text/FAAC_Jan_2025.txt matches
+--
+data/interim/pdf_text/FAAC_July_2025.txt-27-2. The amount disbursed comprised:
+--
+data/interim/pdf_text/FAAC_July_2025.txt-50-
+data/interim/pdf_text/FAAC_July_2025.txt-51-                                                           5
+data/interim/pdf_text/FAAC_July_2025.txt:52:NB:- Others* for this month is the Distribution from Exchange Gain, Electronic Money Transfer Levy (EMTL) and Augmentation of 100B from
+data/interim/pdf_text/FAAC_July_2025.txt-53-                                                        Non-Oil Revenue. See tables in appendix for details
+data/interim/pdf_text/FAAC_July_2025.txt-54-
+data/interim/pdf_text/FAAC_July_2025.txt-55-                                                             6
+Binary file data/interim/pdf_text/FAAC_July_2025.txt matches
+--
+data/interim/pdf_text/FAAC_June_2025.txt-27-2. The amount disbursed comprised:
+--
+data/interim/pdf_text/FAAC_June_2025.txt-50-
+data/interim/pdf_text/FAAC_June_2025.txt-51-                                                           5
+data/interim/pdf_text/FAAC_June_2025.txt:52:NB:- Others* for this month is the Distribution from Exchange Gain, and Electronic Money Transfer Levy (EMTL). See attached excel file for
+data/interim/pdf_text/FAAC_June_2025.txt-53-                                                                                  details
+data/interim/pdf_text/FAAC_June_2025.txt-54-
+data/interim/pdf_text/FAAC_June_2025.txt-55-                                                           6
+Binary file data/interim/pdf_text/FAAC_June_2025.txt matches
+--
+data/interim/pdf_text/FAAC_March_2025.txt-27-2. The amount disbursed comprised:
+--
+data/interim/pdf_text/FAAC_March_2025.txt-50-
+data/interim/pdf_text/FAAC_March_2025.txt-51-                                                           5
+data/interim/pdf_text/FAAC_March_2025.txt:52:NB:- Others* for this month is the Distribution from Exchange Gain, and Electronic Money Transfer Levy (EMTL). See attached excel file for
+data/interim/pdf_text/FAAC_March_2025.txt-53-                                                                                  details
+data/interim/pdf_text/FAAC_March_2025.txt-54-
+data/interim/pdf_text/FAAC_March_2025.txt-55-                                                           6
+Binary file data/interim/pdf_text/FAAC_March_2025.txt matches
+--
+data/interim/pdf_text/FAAC_May_2025.txt-27-2. The amount disbursed comprised:
+--
+data/interim/pdf_text/FAAC_May_2025.txt-50-
+data/interim/pdf_text/FAAC_May_2025.txt-51-                                                           5
+data/interim/pdf_text/FAAC_May_2025.txt:52:NB:- Others* for this month is the Distribution from Exchange Gain, and Electronic Money Transfer Levy (EMTL). See attached excel file for
+data/interim/pdf_text/FAAC_May_2025.txt-53-                                                                                  details
+data/interim/pdf_text/FAAC_May_2025.txt-54-
+data/interim/pdf_text/FAAC_May_2025.txt-55-                                                           6
+Binary file data/interim/pdf_text/FAAC_May_2025.txt matches
+--
+data/interim/pdf_text/FAAC_Report_January_2026.txt-28-2. The amount disbursed comprised:
+data/interim/pdf_text/FAAC_Report_January_2026.txt-29-
+--
+data/interim/pdf_text/FAAC_Report_January_2026.txt-56-
+data/interim/pdf_text/FAAC_Report_January_2026.txt-57-                                                           5
+data/interim/pdf_text/FAAC_Report_January_2026.txt:58:NB:- Others* for this month is the Electronic Money Transfer Levy (EMTL) . See tables in appendix for details
+data/interim/pdf_text/FAAC_Report_January_2026.txt-59-
+data/interim/pdf_text/FAAC_Report_January_2026.txt-60-                                              6
+data/interim/pdf_text/FAAC_Report_January_2026.txt-61-7
+Binary file data/interim/pdf_text/FAAC_Report_January_2026.txt matches
+--
+data/interim/pdf_text/FAAC_Report_November_2025.txt-26-three tiers of government in November 2025 from the total revenue generated in October 2025
+data/interim/pdf_text/FAAC_Report_November_2025.txt-27-2. The amount disbursed comprised:
+--
+data/interim/pdf_text/FAAC_Report_November_2025.txt-49-
+data/interim/pdf_text/FAAC_Report_November_2025.txt-50-                                                           5
+data/interim/pdf_text/FAAC_Report_November_2025.txt:51:NB:- Others* for this month is the Distribution from Exchange Gain, Electronic Money Transfer Levy (EMTL) and Augmentation of 100B from
+data/interim/pdf_text/FAAC_Report_November_2025.txt-52-                                                        Non-Oil Revenue. See tables in appendix for details
+data/interim/pdf_text/FAAC_Report_November_2025.txt-53-
+data/interim/pdf_text/FAAC_Report_November_2025.txt-54-                                                             6
+Binary file data/interim/pdf_text/FAAC_Report_November_2025.txt matches
+--
+data/interim/pdf_text/FAAC_Report_October_2025.txt-26-three tiers of government in October 2025 from the total revenue generated in September 2025
+data/interim/pdf_text/FAAC_Report_October_2025.txt-27-2. The amount disbursed comprised:
+--
+data/interim/pdf_text/FAAC_Report_October_2025.txt-49-
+data/interim/pdf_text/FAAC_Report_October_2025.txt-50-                                                           5
+data/interim/pdf_text/FAAC_Report_October_2025.txt:51:NB:- Others* for this month is the Electronic Money Transfer Levy (EMTL) . See tables in appendix for details
+data/interim/pdf_text/FAAC_Report_October_2025.txt-52-
+data/interim/pdf_text/FAAC_Report_October_2025.txt-53-                                              6
+data/interim/pdf_text/FAAC_Report_October_2025.txt-54-7
+Binary file data/interim/pdf_text/FAAC_Report_October_2025.txt matches
+--
+data/interim/pdf_text/FAAC_Report_September_2025.txt-27-2. The amount disbursed comprised:
+--
+data/interim/pdf_text/FAAC_Report_September_2025.txt-50-
+data/interim/pdf_text/FAAC_Report_September_2025.txt-51-                                                           5
+data/interim/pdf_text/FAAC_Report_September_2025.txt:52:NB:- Others* for this month is the Distribution from Exchange Gain, Electronic Money Transfer Levy (EMTL) and Augmentation of 100B from
+data/interim/pdf_text/FAAC_Report_September_2025.txt-53-                                                        Non-Oil Revenue. See tables in appendix for details
+data/interim/pdf_text/FAAC_Report_September_2025.txt-54-
+data/interim/pdf_text/FAAC_Report_September_2025.txt-55-                                                             6
+Binary file data/interim/pdf_text/FAAC_Report_September_2025.txt matches
+--
+data/interim/pdf_text/FAAC_Sep_2024.txt-28-2. The amount disbursed comprised:
+--
+data/interim/pdf_text/FAAC_Sep_2024.txt-51-
+data/interim/pdf_text/FAAC_Sep_2024.txt-52-                                                           5
+data/interim/pdf_text/FAAC_Sep_2024.txt:53:NB:- Others* for this month is the Distribution from Exchange Gain, and Electronic Money Transfer Levy (EMTL). See tables in appendix for
+data/interim/pdf_text/FAAC_Sep_2024.txt-54-                                                                                  details
+data/interim/pdf_text/FAAC_Sep_2024.txt-55-
+data/interim/pdf_text/FAAC_Sep_2024.txt-56-                                                           6
+--
+data/interim/pdf_text/FAAC_Sep_2024.txt-68-
+data/interim/pdf_text/FAAC_Sep_2024.txt-69-     Summary of Gross Revenue Allocation by Federation Account Allocation Committee for the Month of August, 2024 Shared in September, 2024
+data/interim/pdf_text/FAAC_Sep_2024.txt-70-
+data/interim/pdf_text/FAAC_Sep_2024.txt:71:S/n  Beneficiaries                                             Statutory               Exchange Gain                Electronic Money Transfer  Value Added Tax     Total
+data/interim/pdf_text/FAAC_Sep_2024.txt:72:                                                                                                                            Levy (EMTL)
+data/interim/pdf_text/FAAC_Sep_2024.txt-73-
+data/interim/pdf_text/FAAC_Sep_2024.txt-74-                                                          71,624,392,237.72                                                                                        
+data/interim/pdf_text/FAAC_Sep_2024.txt-75-                                                          36,328,848,910.25
+--
+data/interim/pdf_text/FAAC_Sep_2024.txt-116-
+data/interim/pdf_text/FAAC_Sep_2024.txt-117-18                                                                                                                                Electronic Money Trans-
+data/interim/pdf_text/FAAC_Sep_2024.txt-118-
+data/interim/pdf_text/FAAC_Sep_2024.txt:119:    S/n  Beneficiaries                  Gross Statutory Allocation  Total Deduction       Net Statutory Allocation Exchange Gain  fer Levy (EMTL)             Value Added Tax        Total
+data/interim/pdf_text/FAAC_Sep_2024.txt-120-
+data/interim/pdf_text/FAAC_Sep_2024.txt-121-                                                                                                                                                                                             
+data/interim/pdf_text/FAAC_Sep_2024.txt-122-                                        65,941,211,532.45                                                                         2,102,416,732.89            74,745,310,809.52      241,290,157,326.07
+--
+data/interim/pdf_text/FAAC_Sep_2024.txt-134-         Total                          71,624,392,237.72           (105,440,083,031.43)  (33,815,690,793.71) 220,964,113,060.42  2,252,589,356.67            80,084,261,581.63      269,485,273,205.01
+data/interim/pdf_text/FAAC_Sep_2024.txt-135-S/n                                                                       Exchange Gain Alloca- Electronic Money
+data/interim/pdf_text/FAAC_Sep_2024.txt-136-
+data/interim/pdf_text/FAAC_Sep_2024.txt:137:             Beneficiaries         No. of LGCs  Net Statutory Allocation  tion                Transfer Levy (EMTL)   Net Share of Ecology  Net VAT Allocation  Total Net Amount
+data/interim/pdf_text/FAAC_Sep_2024.txt-138-                                         17                                                                                                                       9,336,670,869.45
+data/interim/pdf_text/FAAC_Sep_2024.txt-139-     1 ABIA                              21     424,386,661.99            3,240,753,210.52    193,530,901.19         49,373,481.01         5,428,626,614.73       8,592,281,524.74
+data/interim/pdf_text/FAAC_Sep_2024.txt-140-                                         31                                                                                                                      27,732,237,332.63
+Binary file data/interim/pdf_text/FAAC_Sep_2024.txt matches
