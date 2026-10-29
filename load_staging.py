@@ -25,21 +25,40 @@ def read_csv(path: Path, columns: list[str]) -> list[tuple]:
             raise ValueError(f"Missing columns in {path}: {missing}")
         return [tuple(row[c] if row[c] != "" else None for c in columns) for row in reader]
 
-# Temporary test loop for Block 1
-if __name__ == "__main__":
-    print("Testing file reader...")
+def connect():
+    return mysql.connector.connect(
+        host=os.environ.get("MYSQL_HOST", "localhost"),
+        port=int(os.environ.get("MYSQL_PORT", "3306")),
+        user=os.environ["MYSQL_USER"],
+        password=os.environ["MYSQL_PASSWORD"],
+        database=os.environ.get("MYSQL_DATABASE", "emtl_analysis"),
+    )
+
+def load_staging(conn) -> int:
     rows = read_csv(STAGING_CSV, STAGING_COLUMNS)
-    print(f"Success! Read {len(rows)} clean rows from CSV.")
+    by_path = defaultdict(list)
+    path_idx = STAGING_COLUMNS.index("source_path")
+    for row in rows:
+        by_path[row[path_idx]].append(row)
+    insert = (f"INSERT INTO stg_emtl_table1 ({', '.join(STAGING_COLUMNS)}) "
+              f"VALUES ({', '.join(['%s'] * len(STAGING_COLUMNS))})")
+    cur = conn.cursor()
+    for source_path, group in by_path.items():
+        cur.execute("DELETE FROM stg_emtl_table1 WHERE source_path = %s", (source_path,))
+        cur.executemany(insert, group)
+        print(f"{source_path}: {len(group)} rows")
+    print(f"Staging: {len(rows)} rows from {len(by_path)} workbooks.")
+    return len(rows)
 
-import mysql.connector
-
-print("Attempting database connection...")
-conn = mysql.connector.connect(
-    host=os.getenv("MYSQL_HOST"),
-    port=int(os.getenv("MYSQL_PORT", 3306)),
-    user=os.getenv("MYSQL_USER"),
-    password=os.getenv("MYSQL_PASSWORD"),
-    database=os.getenv("MYSQL_DATABASE")
-)
-print("Database connection handshake successful!")
-conn.close()
+def load_mapping(conn) -> int:
+    rows = read_csv(MAPPING_CSV, MAPPING_COLUMNS)
+    cur = conn.cursor()
+    cur.executemany(
+        "INSERT INTO recipient_mapping (row_label_raw, recipient_category, review_status) "
+        "VALUES (%s, %s, %s) "
+        "ON DUPLICATE KEY UPDATE recipient_category = VALUES(recipient_category), "
+        "review_status = VALUES(review_status)",
+        rows,
+    )
+    print(f"Mapping: {len(rows)} labels.")
+    return len(rows)
