@@ -70,3 +70,30 @@ CREATE TABLE IF NOT EXISTS source_files (
     title_raw        TEXT         NULL,
     UNIQUE KEY uq_source_files_path (source_path)
 ) ENGINE = InnoDB;
+
+CREATE TABLE IF NOT EXISTS reporting_periods (
+    period_id                 INT AUTO_INCREMENT PRIMARY KEY,
+    source_file_id            INT         NOT NULL,
+    revenue_month             DATE        NOT NULL,
+    allocation_month          DATE        NOT NULL,
+    allocation_period_source  VARCHAR(30) NULL,
+    emtl_line_present         TINYINT(1)  NOT NULL,
+    extraction_status         VARCHAR(60) NULL,
+    UNIQUE KEY uq_period_source (source_file_id),
+    UNIQUE KEY uq_period_revenue_month (revenue_month),
+    CONSTRAINT fk_period_source
+        FOREIGN KEY (source_file_id) REFERENCES source_files (source_file_id)
+) ENGINE = InnoDB;
+
+CREATE TABLE IF NOT EXISTS emtl_observations (
+    observation_id      BIGINT AUTO_INCREMENT PRIMARY KEY,
+    period_id           INT           NOT NULL,
+    row_label_raw       VARCHAR(255)  NOT NULL,
+    recipient_category  VARCHAR(40)   NOT NULL,
+    row_type            VARCHAR(10)   NOT NULL,
+    source_cell         VARCHAR(20)   NOT NULL,
+    amount_ngn          DECIMAL(24,4) NULL,
+    UNIQUE KEY uq_obs_period_cell (period_id, source_cell),
+    CONSTRAINT fk_obs_period
+        FOREIGN KEY (period_id) REFERENCES reporting_periods (period_id)
+) ENGINE = InnoDB;
