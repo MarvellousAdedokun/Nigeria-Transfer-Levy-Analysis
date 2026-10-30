@@ -48,3 +48,11 @@ select count(*) as rows_loaded, count(distinct source_path) as workbooks from st
 select row_type, count(*) from stg_emtl_table1 group by row_type;
 select revenue_period_raw, allocation_period_raw from stg_emtl_table1 limit 5;
 select value_raw from stg_emtl_table1 where value_raw like '%.%.%';
+
+-- the recipient mapping table
+create table if not exists recipient_mapping (
+	row_label_raw varchar(225) primary key,
+    recipient_category varchar(40) not null,
+    review_status varchar(20) not null
+) ENGINE=INNODB;
+
