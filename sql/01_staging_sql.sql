@@ -56,3 +56,17 @@ create table if not exists recipient_mapping (
     review_status varchar(20) not null
 ) ENGINE=INNODB;
 
+SELECT recipient_category, COUNT(*) FROM recipient_mapping GROUP BY recipient_category;
+
+CREATE TABLE IF NOT EXISTS source_files (
+    source_file_id   INT AUTO_INCREMENT PRIMARY KEY,
+    source_path      VARCHAR(500) NOT NULL,
+    file_name        VARCHAR(255) NOT NULL,
+    source_container VARCHAR(255) NULL,
+    sha256           CHAR(64)     NOT NULL,
+    archive_sha256   CHAR(64)     NULL,
+    sheet_name       VARCHAR(100) NULL,
+    title_cell       VARCHAR(20)  NULL,
+    title_raw        TEXT         NULL,
+    UNIQUE KEY uq_source_files_path (source_path)
+) ENGINE = InnoDB;
