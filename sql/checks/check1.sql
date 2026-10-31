@@ -14,3 +14,9 @@ FROM stg_emtl_table1 s
 LEFT JOIN recipient_mapping m ON m.row_label_raw = TRIM(s.row_label_raw)
 WHERE s.row_type IN ('detail', 'total') AND m.row_label_raw IS NULL;
 
+-- check observations by categories
+SELECT recipient_category, COUNT(*) AS rows_loaded,
+       SUM(amount_ngn <> 0) AS non_zero_rows, SUM(amount_ngn IS NULL) AS blank_rows
+FROM emtl_observations
+GROUP BY recipient_category
+ORDER BY recipient_category;
