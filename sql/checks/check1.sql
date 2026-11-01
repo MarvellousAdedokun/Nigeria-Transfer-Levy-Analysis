@@ -30,6 +30,6 @@ GROUP BY rp.period_id, rp.revenue_month
 HAVING ABS(SUM(CASE WHEN o.row_type = 'detail' THEN o.amount_ngn END)
          - MAX(CASE WHEN o.row_type = 'total'  THEN o.amount_ngn END)) > 0.01;
 
--- 
+-- check for duplicated periods or source cell
 SELECT period_id, source_cell, COUNT(*) AS n
 FROM emtl_observations GROUP BY period_id, source_cell HAVING COUNT(*) > 1;
