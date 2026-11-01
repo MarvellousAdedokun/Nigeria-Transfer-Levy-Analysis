@@ -20,3 +20,16 @@ SELECT recipient_category, COUNT(*) AS rows_loaded,
 FROM emtl_observations
 GROUP BY recipient_category
 ORDER BY recipient_category;
+
+-- sum of detail rows compared to the total rows
+SELECT rp.revenue_month,
+       MAX(CASE WHEN o.row_type = 'total'  THEN o.amount_ngn END) AS total_amount,
+       SUM(CASE WHEN o.row_type = 'detail' THEN o.amount_ngn END) AS detail_sum
+FROM reporting_periods rp JOIN emtl_observations o USING (period_id)
+GROUP BY rp.period_id, rp.revenue_month
+HAVING ABS(SUM(CASE WHEN o.row_type = 'detail' THEN o.amount_ngn END)
+         - MAX(CASE WHEN o.row_type = 'total'  THEN o.amount_ngn END)) > 0.01;
+
+-- 
+SELECT period_id, source_cell, COUNT(*) AS n
+FROM emtl_observations GROUP BY period_id, source_cell HAVING COUNT(*) > 1;
