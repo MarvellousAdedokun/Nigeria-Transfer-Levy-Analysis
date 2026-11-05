@@ -6,7 +6,7 @@ SELECT
 FROM
     emtl_observations;
 
--- check how emtl total changed over revenue month
+-- check how emtl total changed over different revenue month
 SELECT 
     rp.period_id,
     rp.revenue_month,
