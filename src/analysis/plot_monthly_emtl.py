@@ -1,55 +1,88 @@
+from pathlib import Path
 import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
-import os
-os.getcwd()
 
-pd.set_option('display.float_format', lambda x: '%.2f' % x)
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
+DATA_DIR = PROJECT_ROOT / "data" / "processed"
+OUTPUT_DIR = PROJECT_ROOT / "reports" / "figures"
 
+csv_file = DATA_DIR / "monthly_emtl_trend.csv"
 
-df = pd.read_csv(r"C:\Users\HP\Documents\GitHub\Nigeria Transfer Levy Analysis\data\processed\montly_emtl_trend.csv")
+df = pd.read_csv(csv_file)
 
+required = ["revenue_month", "reported_emtl_total_ngn"]
+missing = [col for col in required if col not in df.columns]
+if missing:
+    raise ValueError(f"CSV is missing columns: {missing}")
 
-# 2. Convert to datetime and sort sequentially (Step 6 & 7)
-df["revenue_month"] = pd.to_datetime(df["revenue_month"])
-df = df.sort_values(by="revenue_month")
-
-# 3. Create the clean plot layout (Step 8 & 9)
-plt.figure(figsize=(12, 6))
-
-# Strictly uses 'reported_emtl_total_ngn' on Y-axis but scales by 1e9 inline for simplicity
-# Gaps are preserved naturally because pandas loads SQL NULLs as NaN values
-plt.plot(df['revenue_month'], df['reported_emtl_total_ngn'] / 1e9, marker='o', color='#1f77b4', linewidth=2)
-
-# 4. Format X-Axis Dates dynamically to 'Jan 2026' style
-ax = plt.gca()
-ax.xaxis.set_major_formatter(mdates.DateFormatter('%b %Y'))  # Abbreviated month + Year
-ax.xaxis.set_major_locator(mdates.MonthLocator(interval=2))  # Shows every 2nd month to prevent crowding
-
-# 5. Polish design aesthetics, labels, and axis margins (Step 10)
-plt.title('Monthly Reported EMTL Revenue Trend', fontsize=14, fontweight='bold', pad=15)
-plt.xlabel('Revenue Month', fontsize=11, labelpad=10)
-plt.ylabel('Total Revenue (In Billions ₦)', fontsize=11, labelpad=10)
-plt.grid(True, linestyle='--', alpha=0.5)
-plt.ylim(0, (df['reported_emtl_total_ngn'].max() / 1e9) * 1.1)
-
-# Clean, automated date layout tilting handling
-plt.gcf().autofmt_xdate()
-
-# 6. Required explicit analytical note (Step 10)
-plt.figtext(
-    0.12, 0.01, 
-    "Note: Gaps in the trend line indicate missing periods where the EMTL heading was not found in Table I.", 
-    horizontalalignment='left', fontsize=9.5, style='italic', color='#d9534f'
+df["revenue_month"] = pd.to_datetime(df["revenue_month"], errors="coerce")
+df["reported_emtl_total_ngn"] = pd.to_numeric(
+    df["reported_emtl_total_ngn"], errors="coerce"
 )
 
-# Adjust layout margins explicitly so the bottom figtext note fits nicely
-plt.tight_layout()
-plt.subplots_adjust(bottom=0.15) 
+if df["revenue_month"].isna().any():
+    raise ValueError("Some revenue_month values are not valid dates.")
 
-# 7. Save final file asset cleanly to target tree (Step 11)
-output_dir = r"C:\Users\HP\Documents\GitHub\Nigeria Transfer Levy Analysis\reports\figures"
-os.makedirs(output_dir, exist_ok=True)
+# Make every date the first day of its month.
+df["revenue_month"] = df["revenue_month"].dt.to_period("M").dt.to_timestamp()
 
-plt.savefig(os.path.join(output_dir, "monthly_emtl_trend.png"), bbox_inches='tight', dpi=300)
+# One row per revenue month is expected.
+if df["revenue_month"].duplicated().any():
+    raise ValueError("Duplicate revenue months found. Check the SQL export.")
+
+df = df.set_index("revenue_month").sort_index()
+
+# Add any missing months between the first and last dates.
+# Missing values stay NaN; they are NOT changed to zero.
+all_months = pd.date_range(df.index.min(), df.index.max(), freq="MS")
+df = df.reindex(all_months)
+df.index.name = "revenue_month"
+df["emtl_total_bn"] = df["reported_emtl_total_ngn"] / 1_000_000_000
+
+missing_months = df.index[df["reported_emtl_total_ngn"].isna()]
+
+fig, ax = plt.subplots(figsize=(13, 6))
+ax.plot(
+    df.index,
+    df["emtl_total_bn"],
+    marker="o",
+    linewidth=2,
+    label="Reported EMTL total"
+)
+
+# Shade months with no reported amount so the gaps are easy to see.
+for i, month in enumerate(missing_months):
+    ax.axvspan(
+        month - pd.Timedelta(days=14),
+        month + pd.Timedelta(days=14),
+        alpha=0.18,
+        label="No EMTL figure reported" if i == 0 else None
+    )
+
+ax.set_title("Monthly Reported EMTL Total", pad=14)
+ax.set_xlabel("Revenue month")
+ax.set_ylabel("Reported EMTL total (₦ billion)")
+ax.xaxis.set_major_locator(mdates.MonthLocator(interval=2))
+ax.xaxis.set_major_formatter(mdates.DateFormatter("%b %Y"))
+ax.grid(axis="y", linestyle="--", alpha=0.4)
+ax.legend()
+
+fig.text(
+    0.08, 0.02,
+    "Shaded months have no reported EMTL amount. They are missing/not "
+    "reported, not zero.",
+    ha="left", fontsize=9
+)
+fig.autofmt_xdate()
+fig.tight_layout(rect=[0, 0.07, 1, 1])
+
+OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+output_file = OUTPUT_DIR / "monthly_emtl_trend.png"
+fig.savefig(output_file, dpi=300, bbox_inches="tight")
+
+print(f"Chart saved to: {output_file}")
+print(f"Months shown: {len(df)}")
+print(f"Months with reported amounts: {df['reported_emtl_total_ngn'].notna().sum()}")
+print(f"Months without reported amounts: {len(missing_months)}")
 plt.show()
